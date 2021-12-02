@@ -1,0 +1,40 @@
+
+body{
+  width:auto
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+ ul li{
+    
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    text-align: center; 
+    margin-right: 45px; 
+}
+#p-foto1{
+  font-weight: lighter;
+
+}
+#sticky-footer{
+  
+  
+  text-align: right;
+}
+
+
+h1{
+    font-size: 24px;
+    color:tomato
+}
+@media (max-width: 600px) {
+    .foto1 {
+      display: none;
+    }
+
+    ul li {
+        font-size: 20px;
+    }
+  }

@@ -1,0 +1,101 @@
+<%- include("partials/head") %>
+<body>
+    <%- include("partials/header") %>
+    <div class="jumbotron">
+        <h1 class="display-4">Bienvenido!</h1>
+        <p class="lead">Nosotros somos Marcandovías, una agencia digital de primer nivel que se especializa en asesorar emprendimientos y pymes. </p>
+        <hr class="my-4">
+        <p>Con nuestra ayuda tu empresa pasara al siguiente nivel</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#anclaconocemas"  role="button">Conoce mas sobre nosotros</a>
+        </p>
+      </div>
+
+      
+        <div class="foto1">
+    <ul class="list-unstyled"  >
+        <li class="media">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWAcMEDFblzyeIG4c1WFVaw646pGXHTg5wQ&usqp=CAU" class="mr-3" alt="">
+          <div class="media-body">
+            
+           <p id="p-foto1" class="text-left">Con Marcandovías no solo vas a subir de nivel, te llevaras una sorpresa enorme al ver como aumentas tus ventas en un tan corto plazo de tiempo. Tambien tendras un feedback cada semana de lo que venimos haciendo y de los cambios en las campañas.</p> 
+          </div>
+        </li>
+        
+        
+        
+      </ul>
+    </div>
+
+
+
+   
+
+
+
+      <div id="anclaconocemas">
+    <div id="anclaabout">
+        <h1 class="display-4 text-center">Nuestro equipo</h1>
+        <div  class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAge1zewhn8OVpYsWC4MVWquqct2SGr51EHA&usqp=CAU" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Maria</h5>
+                <p class="card-text">Esta es Maria, una talentosa diseñadora grafica con 4 años en experiencia con diseño UX. Actualmente la lider de los proyectos relacionados con ecommerce </p>
+                
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKZYYfBtlYAVrWfSk1xL-h2RYJ99059nA-A&usqp=CAU" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Jaime</h5>
+                <p class="card-text">Este es Jaime, nuestro programador Full Stack mas valioso desde que empezo todo. Con su habilidad y un poco de diseño todo es posible.</p>
+                
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://lamenteesmaravillosa.com/wp-content/uploads/2018/09/hombre-creido-pensando-que-sabe.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Pedro</h5>
+                <p class="card-text">Este es Pedro, el es nuestro Analista en marketing digital. Capaz de hacer que tu marca resuene por todo el pais solo con un pc y un poco de wifi.</p>
+                
+              </div>
+            </div>
+        </div>  
+    </div>
+          
+          
+    </div>
+    <br>
+    <div id="anclacontacto">
+        <h1 class="display-4 text-center ">Estemos en contacto</h1>
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+          <strong>Notición!</strong> Dejando tus datos en el formulario de contacto tenes un 10% OFF en cualquier servicio.
+            
+          </button>
+        </div>
+        <form method="post">
+            <div class="form-group">
+                <label for="exampleFormControlInput1" value="">Nombre </label>
+                <input type="nombre" class="form-control" id="exampleFormControlTextarea1" placeholder="Juan Perez">
+              </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email </label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Dejenos un comentario</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+          <button type="submit" class="btn btn-primary ">Enviar formulario</button>
+
+          <a href="#anclainicio" id="sticky-footer">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAP1JREFUSEvlld0VwUAQhb90oAQqQAWoAJWgAlSASuiADlABJSjBuTm7OUkku5u/J/OSh52938ydSRLRcUQd6/NfgB5wNZbOgE+IvVUsOgIrI3oC1m0Cpqnqra66uPkgIR3ImjvQz4m9gbHPqhDABZiXVKqzpasLH2ABnD02CCBQYbgAsuYF6OkKbdOgzCoXQAOc+IZozpWrof9EGUAreAgUt2kbQKuciSKAtkVb47MmryWrtFXariSKAA9gWLF6m667gpQCdsC2pri9tgekE0e6g5GxpqF+fF1dqJsMoIk1+aISq9IdtAl4AnLkz344tYbv+9jVEvW9aI1F0wJfQW8hGYHEPE8AAAAASUVORK5CYII="/>
+            </a>
+
+    </div>
+    <%- include("partials/footer") %>
+</body>
+</html>
